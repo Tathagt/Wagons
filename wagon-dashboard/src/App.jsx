@@ -40,7 +40,7 @@ export default function App() {
           <Route
             path="/charts"
             element={
-              <ChartDashboard dataRef={chartDataRef} alertLogRef={alertLogRef} />
+              <ChartDashboard dataRef={chartDataRef} alertLogRef={alertLogRef} cartId={selectedWagon} />
             }
           />
         </Routes>
